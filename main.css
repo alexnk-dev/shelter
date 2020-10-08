@@ -95,7 +95,7 @@ p {
   letter-spacing: 1.3px;
 }
 
-.donation-description {
+.donation__description {
   font-size: 0.75rem;
   font-style: italic;
   line-height: 18px;
