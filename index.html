@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preload" href="main.css" as="style" />
-    <link
+    <!-- <link
       rel="preload"
       href="assets/images/start-screen__puppy.png"
       as="image"
-    />
+    /> -->
     <title>Shelter</title>
   </head>
 
@@ -44,11 +44,17 @@
           the world, you will see!
         </p>
         <button class="start-screen__button">Make a friend</button>
-        <img
-          class="start-screen__image"
-          src="assets/images/start-screen__puppy.png"
-          alt=""
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="assets/images/start-screen__puppy.webp"
+          />
+          <img
+            class="start-screen__image"
+            src="assets/images/start-screen__puppy.png"
+            alt=""
+          />
+        </picture>
       </section>
       <section class="about-shelter">
         <img
