@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/*  =============
+    global styles
+    ============= */
+
+body {
+}
+
+img {
+  display: block;
+}
+
+/*  =============
+    typography
+    ============= */
+
+/*  =============
+    layout
+    ============= */
+
+/* navigation */
+.nav-main {
+}
+.nav-main__list {
+}
+.nav-main__item {
+}
+.nav-main__link {
+}
+/*  =============
+    buttons
+    ============= */
